@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Document_oc">
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.wonderkiln.camerakit.CameraView>
+
+    <com.example.pawan.madc.helper.GraphicOverlay
+        android:id="@+id/graphic_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/arial"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/btn_capture"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:elevation="8dp"
+        android:background="@drawable/button_shape2"
+        android:text="Recognize" />
+
+    <Button
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/arial"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_button"
+        android:text="Save File"
+        android:layout_toRightOf="@+id/btn_capture"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_shape"/>
+
+    <Button
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/arial"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/voice"
+        android:text="Speak"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_shape"/>
+
+</RelativeLayout>
