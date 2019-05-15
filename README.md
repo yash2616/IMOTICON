@@ -1,6 +1,6 @@
 # IMOTICON
-It is a mobile application that extracts text from image and converts it into editable document as well as audio.
-# IEEE-MadC
+It is a mobile application that extracts text from image and converts it into editable document as well as audio which was submitted for IEEE-MadC project making competition.
+
 ## Image tO Text Intelligent CoNverter or IMOTICON.
 [Promo Vedio](https://youtu.be/C8CawKLI208)
 
